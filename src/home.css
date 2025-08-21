@@ -1,0 +1,60 @@
+.Login-btn1{
+    padding: 13px;
+    margin-top: 10px;
+    width: 250px;
+    background-color: #6A00F4;
+    color: #FFFFFF;
+    border-style: none ;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Login-btn2{
+    padding: 13px;
+    margin-top: 10px;
+    width: 250px;
+    background-color: #E6D4FB;
+    color: #000000;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    color: rgb(142, 137, 137);
+}
+
+.content{
+    margin-top: 350px;
+    align-items: center;
+    text-align: center;
+}
+
+/* Medium devices (tablets, portrait) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Small devices (mobiles) */
+@media (max-width: 480px) {
+  .Login-btn1, 
+  .Login-btn2 {
+    width: 90%; /* Take full width */
+    max-width: 300px;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .content {
+    margin-top: 150px; /* Reduce space for small screens */
+    padding: 0 15px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
